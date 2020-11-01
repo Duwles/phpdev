@@ -9,3 +9,5 @@ composer.lock
 
 # Server output directory
 /public/
+
+/tests/

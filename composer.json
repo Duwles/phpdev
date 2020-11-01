@@ -1,0 +1,11 @@
+{
+    "require": {
+        "psr/event-dispatcher": "*",
+        "psr/log": "*"        
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "phpbench/phpbench": "*",
+        "squizlabs/php_codesniffer": "*"
+    }
+}
