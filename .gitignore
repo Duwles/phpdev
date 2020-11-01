@@ -1,1 +1,11 @@
-public/
+# Visual Studio Code configs
+/.vscode/
+/.code-workspace
+
+# Composer plugin
+composer.phar
+composer.lock
+/vendor/
+
+# Server output directory
+/public/
