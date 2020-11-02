@@ -1,14 +1,16 @@
 Todo list:
 ==========
  
-Framework v1.0.0
-----------------    
- - [] Add bootstrap file 
- - [] Add class Config
+## Framework:
+
+ - [ ] Add bootstrap file 
+ - [ ] Add class Config
  
- - [] Add abstract class Kernel
+ - [ ] Add abstract class Kernel
  
- - [] Add class Request
- - [] Add class Response
- 
- - [] Add class View
+ - [ ] Add class Request
+ - [ ] Add class Response
+
+ - [ ] Add class AbstractController
+ - [ ] Add class AbstractModel
+ - [ ] Add class View
