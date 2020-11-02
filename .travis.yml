@@ -1,0 +1,36 @@
+language: php
+
+php:
+  - 7.4
+  - nightly  # development version
+
+matrix:
+  allow_failures:
+    - php: nightly
+
+  exclude:
+    - php: 7.4
+      env: TESTER_PHP_BIN="std"
+
+    - php: 8.0
+      env: TESTER_PHP="Crazy"
+
+services:
+  - redis-server
+
+before_install:
+  - composer self-update
+
+install:
+  - composer install --no-interaction --prefer-source
+
+before_script:
+  - mysql -u root -e 'CREATE DATABASE testbase;'
+  - mysql -u root testbase < tests/testbase.sql
+
+script:
+  - ./vendor/bin/tester -p $TESTER_PHP_BIN -c ./tests/php.ini -s ./tests/
+
+after_failure:
+  # Prints *.actual files content
+  - for i in $(find ./tests -name \*.actual); do echo "--- $i"; cat $i; echo; echo; done
