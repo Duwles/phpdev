@@ -1,11 +1,15 @@
 {
     "require": {
-        "psr/event-dispatcher": "*",
-        "psr/log": "*"        
+        "psr/container":        "^1.0",
+        "psr/event-dispatcher": "^1.0",
+        "psr/log":              "^1.1"   
     },
     "require-dev": {
-        "phpunit/phpunit": "*",
-        "phpbench/phpbench": "*",
-        "squizlabs/php_codesniffer": "*"
+        "phpbench/phpbench":        "*",
+        "phpunit/phpunit":          "^9.0",
+        "filp/whoops":              "^2.9.0",
+        "slashtrace/slashtrace":    "^1.0",
+        "maximebf/debugbar":        "^1.1",
+        "symfony/var-dumper":       "^3.4"
     }
 }
