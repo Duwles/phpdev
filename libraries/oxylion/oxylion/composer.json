@@ -1,0 +1,36 @@
+{
+    "name": "oxylion/oxylion",
+    "description": "the Oxylion Framework PHP.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bartosz Zwski",
+            "email": "duwless@outlook.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+
+    "require": {
+        "php": ">=7.4 || ^8.0",
+        "ext-pdo": "*",
+        "ext-xml": "*",
+        "symfony/yaml": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "files": ["src/Oxylion/Component/Support/functions.php"],
+        "classmap": ["app"],
+        "psr-4": {
+            "App\\": "src",
+            "Oxylion\\Component\\": "src/Oxylion/Component/"
+        }   
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    }
+}
