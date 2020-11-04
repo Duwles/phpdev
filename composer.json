@@ -2,14 +2,42 @@
     "require": {
         "psr/container":        "^1.0",
         "psr/event-dispatcher": "^1.0",
-        "psr/log":              "^1.1"   
+        "psr/log":              "^1.1",
+        "opis/closure":         "^3.6.x-dev",
+        "twig/twig":            "^2.8 || ^3.1"
     },
-    "require-dev": {
-        "phpbench/phpbench":        "*",
-        "phpunit/phpunit":          "^9.0",
-        "filp/whoops":              "^2.9.0",
-        "slashtrace/slashtrace":    "^1.0",
-        "maximebf/debugbar":        "^1.1",
-        "symfony/var-dumper":       "^3.4"
+
+        "require-dev": {
+            "squizlabs/php_codesniffer": "*",
+            "phpunit/phpunit":           "*",
+            "filp/whoops":               "*",
+            "phploc/phploc":             "*",
+            "pdepend/pdepend":           "*",
+            "phpmd/phpmd":               "*",
+            "sebastian/phpcpd":          "*",
+            "phpmetrics/phpmetrics":     "*",
+            "friendsofphp/php-cs-fixer": "*",
+            "ovr/phpsa":                 "*",
+            "phpbench/phpbench":         "*",
+            "edgedesign/phpqa":          "*",
+            "symfony/var-dumper":        "*",
+            "slashtrace/slashtrace":     "*",
+            "maximebf/debugbar":         "*",
+            "tracy/tracy": "*",
+            "fzaninotto/faker":          "*",
+            "phpstan/phpstan":           "*"
+        },
+        "prefer-stable": true,
+        "minimum-stability": "dev",
+    
+    "autoload": {
+        "psr-4": {
+            "Oxylion\\Component\\": "libs/oxylion/oxylion/src/Oxylion/Component/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\Oxylion\\Component\\": "libs/oxylion/oxylion/test/Oxylion/Component/"
+        }
     }
 }

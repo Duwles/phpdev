@@ -1,0 +1,4 @@
+parameters:
+    dsn: 'mysql:'
+    user: root
+    password: ''
