@@ -5,7 +5,7 @@ use Error;
 use Oxylion\Component\Foundation\Exceptions\MemberAccessException;
 use ReflectionException;
 
-trait InstanceUtils
+trait TInstanceUtils
 {
     /** @throws Error */
     final public function __construct() {

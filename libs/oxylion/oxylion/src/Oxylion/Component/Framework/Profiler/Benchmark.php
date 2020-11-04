@@ -1,5 +1,5 @@
 <?php
-namespace Oxylion\Component\Framework;
+namespace Oxylion\Component\Framework\Profiler;
 
 class Benchmark
 {

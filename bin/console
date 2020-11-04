@@ -1,0 +1,7 @@
+#!/usr/bin/env php
+<?php
+
+/**
+ * @line php bin/console cache:clear --no-dev
+ * 
+ */

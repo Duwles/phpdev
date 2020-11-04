@@ -11,17 +11,29 @@ if (!function_exists('env')) {
      * @param string|null $default
      * @return string|null
      */
-    function env($name, ?string $default = null) {
-        $v_env = getenv(strtoupper($name));
-        if (!isset($v_env) || empty($v_env)) {
-            if ($default!==null) {
-                return gettype($default);
-            } else {
-                return null;
-            }
-        } else {
-            return gettype($v_env);
+    function env(string $name, $default = null) {
+        $value = getenv($name);
+        if($value === false){
+            return gettype($default);
         }
+        
+        if(is_string($value)) {
+            if(in_array($value, ['enable' , '(enable)', 'disable', '(disable)'])) {
+                switch ($value) {
+                    case'disable':
+                    case '(disable)':
+                        return false;
+                    case 'enable':
+                    case ' (enable)':
+                        return true;
+                    default:
+                        break;
+                }                
+            }
+            
+            return gettype($value);
+        }
+        return gettype($value);
     }
 }
 

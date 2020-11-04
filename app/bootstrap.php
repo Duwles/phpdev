@@ -17,8 +17,13 @@
 
 $loader = require __DIR__."/../vendor/autoload.php";
 
-define('MIDDLE_T', microtime(true));
+use Tracy\Debugger;
 
+
+define('BOOSTED_T', microtime(true));
+
+
+Debugger::enable();
 
 
 

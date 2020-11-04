@@ -27,28 +27,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb6e1c27-a2a2-4992-9983-f84f559d9718" name="Default Changelist" comment="add tests for RouterTest.php">
-      <change afterPath="$PROJECT_DIR$/libraries/oxylion/oxylion/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/oxylion/oxylion/src/Oxylion/Component/Config/Config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/oxylion/oxylion/src/Oxylion/Component/Routing/Route.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/oxylion/oxylion/src/Oxylion/Component/Routing/RouteCollection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/oxylion/oxylion/src/Oxylion/Component/Routing/Router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/config/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/config/framework.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/config/parameters.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/server.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oxylion/oxylion/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oxylion/oxylion/src/Oxylion/Component/Command/ICommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oxylion/oxylion/src/Oxylion/Component/DI/Config/Config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oxylion/oxylion/src/Oxylion/Component/DI/Container.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oxylion/oxylion/src/Oxylion/Component/DI/ContainerBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oxylion/oxylion/src/Oxylion/Component/DI/Exceptions/InvalidConfigurationException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oxylion/oxylion/src/Oxylion/Component/DI/Exceptions/InvalidStateException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oxylion/oxylion/src/Oxylion/Component/DI/Services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oxylion/oxylion/src/Oxylion/Component/Foundation/Exceptions/MemberAccessException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oxylion/oxylion/src/Oxylion/Component/Foundation/Exceptions/UnexpectedValueException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oxylion/oxylion/src/Oxylion/Component/Foundation/Support/ObjectUtils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oxylion/oxylion/src/Oxylion/Component/Foundation/Support/TInstanceUtils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oxylion/oxylion/src/Oxylion/Component/Foundation/Support/TSmartCalls.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oxylion/oxylion/src/Oxylion/Component/Framework/Profiler/Benchmark.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oxylion/oxylion/src/Oxylion/Component/Routing/Route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oxylion/oxylion/src/Oxylion/Component/Routing/RouteCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oxylion/oxylion/src/Oxylion/Component/Routing/Router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oxylion/oxylion/src/Oxylion/Component/Support/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/oxylion/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/phpdev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpdev.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/bootstrap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraries/oxylion/oxylion/src/Oxylion/Component/Support/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/oxylion/oxylion/src/Oxylion/Component/Support/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libraries/oxylion/oxylion/test/Oxylion/Component/Config/ConfigTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/oxylion/oxylion/test/Oxylion/Component/Config/ConfigTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/oxylion/oxylion/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/libs/oxylion/oxylion/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/oxylion/oxylion/src/Oxylion/Component/Support/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/oxylion/oxylion/test/Oxylion/Component/Config/ConfigTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/oxylion/oxylion/test/Oxylion/Component/Routing/RouteCollectionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/oxylion/oxylion/test/Oxylion/Component/Routing/RouterTest.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable path="composer" />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -59,28 +95,28 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="editor://open/?file=%file&amp;line=%line" id="cc502768-3723-4d4f-be96-0617e9860f5e" name="trace debug" />
+    </servers>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/beberlei/assert" />
       <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/vendor/lstrojny/functional-php" />
-      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
-      <path value="$PROJECT_DIR$/vendor/symfony/string" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/symfony/console" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
       <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
       <path value="$PROJECT_DIR$/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/vendor/symfony/debug" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/vendor/psr/log" />
@@ -90,12 +126,10 @@
       <path value="$PROJECT_DIR$/vendor/phpbench/dom" />
       <path value="$PROJECT_DIR$/vendor/sebastian/version" />
       <path value="$PROJECT_DIR$/vendor/phpbench/container" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
       <path value="$PROJECT_DIR$/vendor/phpbench/phpbench" />
       <path value="$PROJECT_DIR$/vendor/sebastian/type" />
       <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
       <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
       <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
       <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
       <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
@@ -129,6 +163,34 @@
       <path value="$PROJECT_DIR$/vendor/league/climate" />
       <path value="$PROJECT_DIR$/vendor/filp/whoops" />
       <path value="$PROJECT_DIR$/vendor/slashtrace/slashtrace" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/regex-guard/regex-guard" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/pdepend/pdepend" />
+      <path value="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/robo" />
+      <path value="$PROJECT_DIR$/vendor/ovr/phpsa" />
+      <path value="$PROJECT_DIR$/vendor/ovr/phpreflection" />
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/phpmetrics/phpmetrics" />
+      <path value="$PROJECT_DIR$/vendor/edgedesign/phpqa" />
+      <path value="$PROJECT_DIR$/vendor/phploc/phploc" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/webiny/std-lib" />
+      <path value="$PROJECT_DIR$/vendor/php-cs-fixer/diff" />
+      <path value="$PROJECT_DIR$/vendor/webiny/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/phpmd/phpmd" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/phpcpd" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/vendor/henrikbjorn/lurker" />
+      <path value="$PROJECT_DIR$/vendor/tracy/tracy" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jjCB25JiDEnRnPgmnncoJRiGWv" />
@@ -143,29 +205,41 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/tests/unit/AppKernelTest.php&#10;E:/virtual-host/oxylion-dev/phpdev/tests/League/CLImate/TerminalObject/Router/RouterTest.php" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/public/bundle/oxylion/css/style.css&#10;E:/virtual-host/oxylion-dev/phpdev/public/assets/style.css&#10;E:/virtual-host/oxylion-dev/phpdev/public/index.php&#10;E:/virtual-host/oxylion-dev/phpdev/vendor/phpstan/phpstan/phpstan&#10;E:/virtual-host/oxylion-dev/phpdev/vendor/phpbench/phpbench/composer.json&#10;E:/virtual-host/oxylion-dev/phpdev/tests/unit/AppKernelTest.php&#10;E:/virtual-host/oxylion-dev/phpdev/tests/League/CLImate/TerminalObject/Router/RouterTest.php&#10;E:/virtual-host/oxylion-dev/phpdev/public/assets/theme.html&#10;E:/virtual-host/oxylion-dev/phpdev/vendor/phpbench/container/lib/ExtensionInterface.php" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\virtual-host\oxylion-dev\phpdev\public\assets" />
+      <recent name="E:\virtual-host\oxylion-dev\phpdev\libraries\oxylion\oxylion\src\Oxylion\Component\Foundation" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\virtual-host\oxylion-dev\phpdev\libraries\oxylion\oxylion\test\Oxylion\Component\Routing" />
+      <recent name="E:\virtual-host\oxylion-dev\phpdev\libs\oxylion\oxylion\src\Oxylion\Component\DI\Config" />
+      <recent name="E:\virtual-host\oxylion-dev\phpdev\libs\oxylion\oxylion\src\Oxylion\Component\Framework\Profiler" />
+      <recent name="E:\virtual-host\oxylion-dev\phpdev\libs\oxylion\oxylion\src\Oxylion\Component\System" />
+      <recent name="E:\virtual-host\oxylion-dev\phpdev\libs\oxylion" />
+      <recent name="E:\virtual-host\oxylion-dev\phpdev\libraries\oxylion\oxylion\src\Oxylion\" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.ConfigTest">
-    <configuration name="ConfigTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+    <configuration name="ConfigTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 7.4" />
         </PhpTestInterpreterSettings>
       </CommandLine>
-      <TestRunner class="Test\Oxylion\Component\Config\ConfigTest" file="$PROJECT_DIR$/libraries/oxylion/oxylion/test/Oxylion/Component/Config/ConfigTest.php" scope="Class" />
+      <TestRunner class="Test\Oxylion\Component\Config\ConfigTest" file="$PROJECT_DIR$/libs/oxylion/oxylion/test/Oxylion/Component/Config/ConfigTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <configuration name="ConfigTest.testSingletonConfig" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -174,12 +248,18 @@
           <option name="interpreterName" value="PHP 7.4" />
         </PhpTestInterpreterSettings>
       </CommandLine>
-      <TestRunner class="Test\Oxylion\Component\Config\ConfigTest" file="$PROJECT_DIR$/libraries/oxylion/oxylion/test/Oxylion/Component/Config/ConfigTest.php" method="testSingletonConfig" scope="Method" />
+      <TestRunner class="Test\Oxylion\Component\Config\ConfigTest" file="$PROJECT_DIR$/libs/oxylion/oxylion/test/Oxylion/Component/Config/ConfigTest.php" method="testSingletonConfig" scope="Method" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="FILTER" server_name="trace debug" session_id="PHPSTORM">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHPUnit.ConfigTest" />
+      <item itemvalue="PHPUnit.ConfigTest.testSingletonConfig" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.ConfigTest" />
         <item itemvalue="PHPUnit.ConfigTest.testSingletonConfig" />
       </list>
     </recent_temporary>
@@ -192,7 +272,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604307974471</updated>
-      <workItem from="1604307975772" duration="5094000" />
+      <workItem from="1604307975772" duration="13329000" />
+      <workItem from="1604328964853" duration="15646000" />
+      <workItem from="1604477626600" duration="3968000" />
+      <workItem from="1604508473818" duration="2491000" />
     </task>
     <task id="LOCAL-00001" summary="add tests for RouterTest.php">
       <created>1604309375911</created>
@@ -229,6 +312,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="up" />
@@ -240,30 +324,106 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="547" y="175" key="#CLI_Interpreters/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604310776462" />
+    <state x="736" y="232" key="#HTTP_Proxy" timestamp="1604508531777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="232" key="#HTTP_Proxy/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604508531777" />
+    <state x="540" y="175" key="#Mess_Detector" timestamp="1604337333801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="175" key="#Mess_Detector/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604337333801" />
+    <state x="540" y="175" key="#Servers" timestamp="1604345006935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="175" key="#Servers/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604345006935" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604345022569">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604345022569" />
+    <state x="724" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604510869027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="724" y="310" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604510869027" />
+    <state x="749" y="213" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604338349012">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="749" y="213" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604338349012" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604510637003">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604510637003" />
+    <state x="740" y="448" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1604338679493">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="448" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604338679493" />
     <state x="723" y="430" key="ComposerInitDialogKey" timestamp="1604308139966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="723" y="430" key="ComposerInitDialogKey/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604308139966" />
-    <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1604313343837">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604483799102">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604313343837" />
-    <state width="1877" height="275" key="GridCell.Tab.0.center" timestamp="1604313343837">
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604483799102" />
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1604510627998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604313343837" />
-    <state width="1877" height="275" key="GridCell.Tab.0.left" timestamp="1604313343837">
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604510627998" />
+    <state width="1877" height="275" key="GridCell.Tab.0.center" timestamp="1604510627998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604313343837" />
-    <state width="1877" height="275" key="GridCell.Tab.0.right" timestamp="1604313343837">
+    <state width="1877" height="275" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604510627998" />
+    <state width="1877" height="275" key="GridCell.Tab.0.left" timestamp="1604510627997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604313343837" />
-    <state x="602" y="227" key="NewPhpClassDialog" timestamp="1604309609534">
+    <state width="1877" height="275" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604510627997" />
+    <state width="1877" height="275" key="GridCell.Tab.0.right" timestamp="1604510627998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="602" y="227" key="NewPhpClassDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604309609534" />
+    <state width="1877" height="275" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604510627998" />
+    <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1604478971925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.1.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604478971925" />
+    <state width="1877" height="340" key="GridCell.Tab.1.center" timestamp="1604478971925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.1.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604478971925" />
+    <state width="1877" height="340" key="GridCell.Tab.1.left" timestamp="1604478971924">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.1.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604478971924" />
+    <state width="1877" height="340" key="GridCell.Tab.1.right" timestamp="1604478971925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.1.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604478971925" />
+    <state width="1877" height="340" key="GridCell.Tab.2.bottom" timestamp="1604478971925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.2.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604478971925" />
+    <state width="1877" height="340" key="GridCell.Tab.2.center" timestamp="1604478971925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.2.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604478971925" />
+    <state width="1877" height="340" key="GridCell.Tab.2.left" timestamp="1604478971925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.2.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604478971925" />
+    <state width="1877" height="340" key="GridCell.Tab.2.right" timestamp="1604478971925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="340" key="GridCell.Tab.2.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604478971925" />
+    <state x="602" y="227" key="NewPhpClassDialog" timestamp="1604342065807">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="602" y="227" key="NewPhpClassDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604342065807" />
+    <state x="794" y="439" key="NewPhpFileDialog" timestamp="1604510550165">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="439" key="NewPhpFileDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604510550165" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1604337324404">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604337324404" />
     <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1604309384849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -272,6 +432,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="567" y="245" width="825" height="550" key="com.jetbrains.php.test.PhpNewTestDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604309233321" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604339735366">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604339735366" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/phpdev@ConfigTest_testSingletonConfig.xml" NAME="ConfigTest.testSingletonConfig Coverage Results" MODIFIED="1604313265830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

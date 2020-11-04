@@ -1,13 +1,16 @@
 # Visual Studio Code configs
+/.idea/
 /.vscode/
 /.code-workspace
 
 # Composer plugin
-composer.phar
-composer.lock
+/composer.phar
+/composer.lock
 /vendor/
 
 # Server output directory
-/public/
+/public/assets/
 
 /tests/
+/.phpunit.result.cache
+

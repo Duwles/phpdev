@@ -1,5 +1,5 @@
 <?php declare(strict_types=1);
-namespace Oxylion\Component\Config;
+namespace Oxylion\Component\DI\Config;
 
 class Config
 {

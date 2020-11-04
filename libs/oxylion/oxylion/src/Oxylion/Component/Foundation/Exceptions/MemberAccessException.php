@@ -1,10 +1,4 @@
 <?php
-
-
 namespace Oxylion\Component\Foundation\Exceptions;
 
-
-class MemberAccessException
-{
-
-}
+class MemberAccessException extends \LogicException { }
