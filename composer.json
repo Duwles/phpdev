@@ -11,5 +11,15 @@
         "slashtrace/slashtrace":    "^1.0",
         "maximebf/debugbar":        "^1.1",
         "symfony/var-dumper":       "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oxylion\\Component\\": "libraries/oxylion/oxylion/src/Oxylion/Component/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\Oxylion\\Component\\": "libraries/oxylion/oxylion/test/Oxylion/Component/"
+        }
     }
 }

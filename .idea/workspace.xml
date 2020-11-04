@@ -26,17 +26,18 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb6e1c27-a2a2-4992-9983-f84f559d9718" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpdev.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/oxylion/oxylion/test/Oxylion/Component/Config/ConfigTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/oxylion/oxylion/test/Oxylion/Component/Routing/RouteCollectionTest.php" afterDir="false" />
+    <list default="true" id="cb6e1c27-a2a2-4992-9983-f84f559d9718" name="Default Changelist" comment="add tests for RouterTest.php">
+      <change afterPath="$PROJECT_DIR$/libraries/oxylion/oxylion/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/oxylion/oxylion/src/Oxylion/Component/Config/Config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/oxylion/oxylion/src/Oxylion/Component/Routing/Route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/oxylion/oxylion/src/Oxylion/Component/Routing/RouteCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraries/oxylion/oxylion/src/Oxylion/Component/Routing/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpdev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpdev.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/oxylion/oxylion/src/Oxylion/Component/Support/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/oxylion/oxylion/src/Oxylion/Component/Support/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/oxylion/oxylion/test/Oxylion/Component/Config/ConfigTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/libraries/oxylion/oxylion/test/Oxylion/Component/Config/ConfigTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,12 @@
     </execution>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -125,16 +132,57 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1jjCB25JiDEnRnPgmnncoJRiGWv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/tests/unit/AppKernelTest.php" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/tests/unit/AppKernelTest.php&#10;E:/virtual-host/oxylion-dev/phpdev/tests/League/CLImate/TerminalObject/Router/RouterTest.php" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\virtual-host\oxylion-dev\phpdev\libraries\oxylion\oxylion\test\Oxylion\Component\Routing" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.ConfigTest">
+    <configuration name="ConfigTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.4" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner class="Test\Oxylion\Component\Config\ConfigTest" file="$PROJECT_DIR$/libraries/oxylion/oxylion/test/Oxylion/Component/Config/ConfigTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ConfigTest.testSingletonConfig" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.4" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner class="Test\Oxylion\Component\Config\ConfigTest" file="$PROJECT_DIR$/libraries/oxylion/oxylion/test/Oxylion/Component/Config/ConfigTest.php" method="testSingletonConfig" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.ConfigTest" />
+        <item itemvalue="PHPUnit.ConfigTest.testSingletonConfig" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -144,8 +192,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604307974471</updated>
-      <workItem from="1604307975772" duration="1255000" />
+      <workItem from="1604307975772" duration="5094000" />
     </task>
+    <task id="LOCAL-00001" summary="add tests for RouterTest.php">
+      <created>1604309375911</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604309375911</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,14 +230,50 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="up" />
+    <MESSAGE value="add tests for RouterTest.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tests for RouterTest.php" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="547" y="175" key="#CLI_Interpreters" timestamp="1604310776462">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="547" y="175" key="#CLI_Interpreters/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604310776462" />
     <state x="723" y="430" key="ComposerInitDialogKey" timestamp="1604308139966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="723" y="430" key="ComposerInitDialogKey/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604308139966" />
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1604313343837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604313343837" />
+    <state width="1877" height="275" key="GridCell.Tab.0.center" timestamp="1604313343837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604313343837" />
+    <state width="1877" height="275" key="GridCell.Tab.0.left" timestamp="1604313343837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604313343837" />
+    <state width="1877" height="275" key="GridCell.Tab.0.right" timestamp="1604313343837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="275" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604313343837" />
+    <state x="602" y="227" key="NewPhpClassDialog" timestamp="1604309609534">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="602" y="227" key="NewPhpClassDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604309609534" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1604309384849">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604309384849" />
     <state x="567" y="245" width="825" height="550" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1604309233321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="567" y="245" width="825" height="550" key="com.jetbrains.php.test.PhpNewTestDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1604309233321" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/phpdev@ConfigTest_testSingletonConfig.xml" NAME="ConfigTest.testSingletonConfig Coverage Results" MODIFIED="1604313265830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
